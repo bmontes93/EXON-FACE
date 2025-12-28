@@ -23,9 +23,9 @@ _High-Performance, Ethics-First face manipulation tool powered by ONNX Runtime a
 
 Built with a modular architecture, it leverages **ONNX Runtime** for hardware-agnostic acceleration (NVIDIA CUDA support comes pre-tuned) and a reactive **Gradio** interface for seamless interaction.
 
-## ✨ Features
+##  Features
 
-### 🚀 Core Capabilities
+###  Core Capabilities
 
 - **High-Fidelity Face Swapping**: Utilizes the InsightFace model suite for robust face detection and feature mapping.
 - **Precision Masking**: Integrated **BiSeNet** segmentation allows for pixel-perfect inclusion/exclusion of facial features (eyes, mouth, skin) to preserve original expressions or fix occlusion artifacts.
@@ -39,7 +39,7 @@ Built with a modular architecture, it leverages **ONNX Runtime** for hardware-ag
 - **Lossless Output**: Support for high-bitrate video output and lossless image formats.
 - **CLI & GUI**: Flexible usage for both casual users and automation scripts.
 
-## ⚙️ Installation
+##  Installation
 
 ### Prerequisites
 
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 python run.py
 ```
 
-## 🖥️ Usage
+##  Usage
 
 1.  **Select Source**: Upload an image containing the face you want to copy.
 2.  **Select Target**: Upload the image or video where you want to paste the face.
@@ -103,7 +103,7 @@ python run.py
 - **Face Segmentation**: BiSeNet (Bilateral Segmentation Network)
 - **GUI**: Gradio
 
-## ⚠️ Ethical Disclaimer and Legal Notice
+##  Ethical Disclaimer and Legal Notice
 
 **THIS SOFTWARE IS PROVIDED FOR EDUCATIONAL, ARTISTIC, AND RESEARCH PURPOSES ONLY.**
 
@@ -115,7 +115,7 @@ The developers of EXON FACE condemn the use of this technology for:
 
 **User Responsibility**: By using this software, you agree that you retain full legal responsibility for the content you create. The authors assume no liability for misuse. We strongly recommend watermarking AI-generated content to maintain transparency.
 
-## 🤝 Credits & Acknowledgements
+##  Credits & Acknowledgements
 
 This project builds upon the shoulders of giants in the open-source community:
 
