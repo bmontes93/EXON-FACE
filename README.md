@@ -17,7 +17,7 @@ _High-Performance, Ethics-First face manipulation tool powered by ONNX Runtime a
 
 ---
 
-## 📖 Overview
+##  Overview
 
 **EXON FACE** is a state-of-the-art implementation of face swapping technology, engineered for high fidelity, performance, and user control. Unlike basic implementations, EXON focuses on professional workflows, offering granular masking controls (BiSeNet), optimized FP16 inference pipelines, and a suite of post-processing enhancers to deliver cinema-quality results.
 
@@ -32,7 +32,7 @@ Built with a modular architecture, it leverages **ONNX Runtime** for hardware-ag
 - **Smart Enhancers**: Includes **CodeFormer** and **GFPGAN** pipelines for restoring facial details in low-resolution sources.
 - **Performance Profiles**: One-click presets (**Cinema**, **Balanced**, **Fast**) to automatically tune execution threads and FP16 precision.
 
-### 🛠 Technical Highlights
+###  Technical Highlights
 
 - **Faceset Management**: Create, save, and reuse custom collections of faces for batch processing.
 - **Visual Face Selector**: Gallery-based interface to select specific target faces in multi-person scenes.
@@ -95,7 +95,7 @@ python run.py
     - Adjust **Masking** settings if you need to preserve the original eyes or mouth.
 4.  **Process**: Click "Start" and watch the preview generation. Output is saved to the `output/` directory by default.
 
-## 🏗 Technology Stack
+##  Technology Stack
 
 - **Backend**: Python 3.10
 - **Inference Engine**: ONNX Runtime (CUDA/DirectML/CPU execution providers)
