@@ -126,6 +126,6 @@ This project builds upon the shoulders of giants in the open-source community:
 ---
 
 <div align="center">
-    Created and Maintained by <b>bryanmontesdev</b><br>
+    Created and Maintained by <b>Bryan Montes</b><br>
     <i>Pushing the boundaries of creative AI.</i>
 </div>
